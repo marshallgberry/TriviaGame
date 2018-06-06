@@ -1,0 +1,77 @@
+body {
+    background-image: url("../images/muttcutts.png");
+    background-size: cover;
+  }
+
+  header {
+    text-align: center;
+    width: 100%;
+  }
+
+  .logo {
+    text-align: center;
+    color: red;
+    font-size: 75px;
+    font-family: 'Bowlby One SC', cursive;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  }
+  
+
+  #dumbGame {
+    background-color:red;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .start-header {
+    font-size: 40px;
+    font-family: 'Bowlby One SC', cursive;
+    margin-bottom: 10px;
+  }
+  
+  .start-button {
+    background-color: white;
+    font-family: 'Bowlby One SC', cursive;
+    border: none;
+    border-radius: 6px;
+    color: #4d4d4d;
+    cursor:  pointer;
+    padding: 10px 15px;
+    font-size: 22px;
+  }
+
+ 
+ 
+  .timer {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .question {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .answer {
+    font-size: 18px;
+    margin: 5px 10px;
+  }
+  
+  .answer:hover {
+    background-color: #a5a5a5;
+    cursor: pointer;
+  }
+  
+  .answer-correct {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  
+  .answer-image {
+    size: auto;
+  }
